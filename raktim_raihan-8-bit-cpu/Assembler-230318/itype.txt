@@ -1,0 +1,5 @@
+addi 001
+lw 010
+sw 011
+beq 100
+slti 101

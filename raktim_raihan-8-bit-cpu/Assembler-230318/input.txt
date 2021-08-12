@@ -1,0 +1,14 @@
+slti $t0, 7
+beq $t3, 4
+addi $t1, 2
+addi $t2, 1
+addi $t0, 1
+j 0
+sub $t3, $t3
+add $t3, $t1
+sw 3($t2)
+sub $t3, $t3
+slti $t0, 7
+beq $t3, 2
+lw 3($t2)
+disp

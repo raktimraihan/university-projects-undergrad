@@ -1,0 +1,112 @@
+slti $t0, 7
+-----------------------------------
+-----------------------------------
+Input from text File=             [slti $t0, 7]
+Equivalent binary conversion= [101, 00, 111]
+Hexa Decimal Format output= A7
+
+
+beq $t3, 4
+-----------------------------------
+-----------------------------------
+Input from text File=             [beq $t3, 4]
+Equivalent binary conversion= [100, 11, 100]
+Hexa Decimal Format output= 9C
+
+
+addi $t1, 2
+-----------------------------------
+-----------------------------------
+Input from text File=             [addi $t1, 2]
+Equivalent binary conversion= [001, 01, 010]
+Hexa Decimal Format output= 2A
+
+
+addi $t2, 1
+-----------------------------------
+-----------------------------------
+Input from text File=             [addi $t2, 1]
+Equivalent binary conversion= [001, 10, 001]
+Hexa Decimal Format output= 31
+
+
+addi $t0, 1
+-----------------------------------
+-----------------------------------
+Input from text File=             [addi $t0, 1]
+Equivalent binary conversion= [001, 00, 001]
+Hexa Decimal Format output= 21
+
+
+j 0
+-----------------------------------
+-----------------------------------
+Input from text File=             [j 0]
+Equivalent binary conversion= [110, 00000]
+Hexa Decimal Format output= C0
+
+
+sub $t3, $t3
+-----------------------------------
+-----------------------------------
+Input from text File=             [sub $t3, $t3]
+Equivalent binary conversion= [000, 11, 11, 1]
+Hexa Decimal Format output= 1F
+
+
+add $t3, $t1
+-----------------------------------
+-----------------------------------
+Input from text File=             [add $t3, $t1]
+Equivalent binary conversion= [000, 01, 11, 0]
+Hexa Decimal Format output= 0E
+
+
+sw 3($t2)
+-----------------------------------
+-----------------------------------
+Input from text File=             [sw 3($t2)]
+Equivalent binary conversion= [011, 10, 011]
+Hexa Decimal Format output= 73
+
+
+sub $t3, $t3
+-----------------------------------
+-----------------------------------
+Input from text File=             [sub $t3, $t3]
+Equivalent binary conversion= [000, 11, 11, 1]
+Hexa Decimal Format output= 1F
+
+
+slti $t0, 7
+-----------------------------------
+-----------------------------------
+Input from text File=             [slti $t0, 7]
+Equivalent binary conversion= [101, 00, 111]
+Hexa Decimal Format output= A7
+
+
+beq $t3, 2
+-----------------------------------
+-----------------------------------
+Input from text File=             [beq $t3, 2]
+Equivalent binary conversion= [100, 11, 010]
+Hexa Decimal Format output= 9A
+
+
+lw 3($t2)
+-----------------------------------
+-----------------------------------
+Input from text File=             [lw 3($t2)]
+Equivalent binary conversion= [010, 10, 011]
+Hexa Decimal Format output= 53
+
+
+disp
+-----------------------------------
+-----------------------------------
+Input from text File=             [disp]
+Equivalent binary conversion= [111, 00000]
+Hexa Decimal Format output= E0
+
+

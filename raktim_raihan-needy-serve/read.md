@@ -1,0 +1,2 @@
+This project aims to develop a system that combines the topics of goods surplus and scarcity of basic needs. The system will be accessible via internet through a web page and an android application.
+This is the source code of Android application for Donor who want to donate for and Volunteer who want to collect food.

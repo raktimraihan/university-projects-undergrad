@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_30_minute">/ 30 minute</string>
+    <string name="due_bill_header"> You have due bill of </string>
+    <string name="due_bill_middle"> taka on previous request to renter </string>
+    <string name="due_bill_middle_1"> Please contact to pay in person, request placed on: </string>
+    <string name="phone"> By Phone: </string>
+    <string name="mail"> By Mail: </string>
+    <string name="due_bill_end"> We advise you to pay bill for getting further service.</string>
+
+</resources>
